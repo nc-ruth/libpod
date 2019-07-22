@@ -161,7 +161,7 @@ sudo sysctl kernel.unprivileged_userns_clone=1
 To enable the user namespaces permanently:
 
 ```
-echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/userns.conf
+sudo echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/userns.conf
 ```
 
 ### Building missing dependencies
